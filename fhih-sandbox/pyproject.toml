@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fhih"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "fhih", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.0.6"
+fhir-resources = "^7.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
