@@ -3,6 +3,6 @@
         "fileMatch": [
             "*.fhir.json"
         ],
-        "url": "./fhir.schema.json"
+        "url": "./fhih-sandbox/fhir.schema.json"
     }]
 }
