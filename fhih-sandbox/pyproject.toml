@@ -10,6 +10,7 @@ packages = [{include = "fhih", from = "src"}]
 python = "^3.11"
 notebook = "^7.0.6"
 fhir-resources = "^7.0.2"
+fhirclient = "^4.1.0"
 
 
 [build-system]

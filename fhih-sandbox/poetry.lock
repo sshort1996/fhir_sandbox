@@ -545,6 +545,21 @@ xml = ["lxml"]
 yaml = ["PyYAML (>=5.4.1)"]
 
 [[package]]
+name = "fhirclient"
+version = "4.1.0"
+description = "A flexible client for FHIR servers supporting the SMART on FHIR protocol"
+optional = false
+python-versions = "*"
+files = [
+    {file = "fhirclient-4.1.0-py2.py3-none-any.whl", hash = "sha256:4f64f7967c9fe5f74cce068f29b0e5e4485848a73ec327765a8f3c188b9948a4"},
+    {file = "fhirclient-4.1.0.tar.gz", hash = "sha256:fe9c92b3649a4d2829d91c40cd7765c6f729971d12d1dec39a7ee6e81f83384c"},
+]
+
+[package.dependencies]
+isodate = "*"
+requests = "*"
+
+[[package]]
 name = "fqdn"
 version = "1.5.1"
 description = "Validates fully-qualified domain names against RFC 1123, so that they are acceptable to modern bowsers"
@@ -634,6 +649,20 @@ parallel = ["ipyparallel"]
 qtconsole = ["qtconsole"]
 test = ["pickleshare", "pytest (<7.1)", "pytest-asyncio (<0.22)", "testpath"]
 test-extra = ["curio", "matplotlib (!=3.2.0)", "nbformat", "numpy (>=1.22)", "pandas", "pickleshare", "pytest (<7.1)", "pytest-asyncio (<0.22)", "testpath", "trio"]
+
+[[package]]
+name = "isodate"
+version = "0.6.1"
+description = "An ISO 8601 date/time/duration parser and formatter"
+optional = false
+python-versions = "*"
+files = [
+    {file = "isodate-0.6.1-py2.py3-none-any.whl", hash = "sha256:0751eece944162659049d35f4f549ed815792b38793f07cf73381c1c87cbed96"},
+    {file = "isodate-0.6.1.tar.gz", hash = "sha256:48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9"},
+]
+
+[package.dependencies]
+six = "*"
 
 [[package]]
 name = "isoduration"
@@ -2078,4 +2107,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "29fbef918d71019df554368ebe56342064b27e0140cb99c771adcf8eb8f0d246"
+content-hash = "87fa7d439d7a631928e4bb4b846f5ed47aadbd194a6b0be6325038c1925a510e"

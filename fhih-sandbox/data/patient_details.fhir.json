@@ -11,17 +11,17 @@
     "birthDate": "1996-07-24",
     "telecom": [
         {
-            "value": "0473519400",
+            "value": "1234567890",
             "use": "mobile",
             "system": "phone"
         },
         {
-            "value": "+353851784179",
+            "value": "+353123456789",
             "use": "old",
             "system": "phone"
         },
         {
-            "value": "shane.short5@gmail.com",
+            "value": "demo.email@gmail.com",
             "system": "email"
         }
     ],
@@ -29,12 +29,12 @@
         {
             "use": "home",
             "line": [
-                "Unit 13, 1 High Street"
+                "Unit 1, 2 Fleet Street"
             ],
-            "city": "Fremantle",
-            "state": "Western Australia",
-            "country": "Australia",
-            "postalCode": "6160",
+            "city": "Townville",
+            "state": "Ontario",
+            "country": "Canada",
+            "postalCode": "1234",
             "type": "both"
             
         }
