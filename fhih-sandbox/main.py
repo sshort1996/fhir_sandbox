@@ -32,20 +32,18 @@ Architecture notes:
 # Create database connection to MySQL
 # Initialize necessary tables if they don't exist
 
-# Define User class with appropriate attributes and methods
-# Implement password hashing and salting methods
+# Define User class with appropriate attributes and methods - use Table and User dataclass from bookstore
+# Implement password hashing and salting methods - bcrypt logic from bookstore
 
-# Define Medication class with appropriate attributes and methods
-
-# Define Prescription class with appropriate attributes and methods
-# Implement authentication decorator for admin users
+# Implement authentication decorator for admin/prescriber users
 
 # Define routes and their corresponding functions
-# Implement route to register users
-# Implement route to login users
+# Implement route to register users - copy from bookstore
+# Implement route to login users - copy from bookstore
 # Implement route to view medication details
-# Implement route to provide contact details for reminders
-# Implement route accessible only to admin users to view, update, or delete prescriptions
+# Implement route to provide contact details for reminders 
+# Implement methods for sending SMS/email reminders on a CRON schedule
+# Implement route accessible only to admin users to view, update, or delete prescriptions - copy from bookstore
 
 # Implement necessary security measures:
   # Password hashing and salting for user credentials
